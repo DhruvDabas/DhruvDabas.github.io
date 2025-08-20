@@ -163,7 +163,7 @@ header {
 
 .nav-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -171,16 +171,9 @@ header {
     width: 100%;
 }
 
-.nav-logo {
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: var(--primary-color);
-}
-
 .nav-menu {
     display: flex;
     align-items: center;
-    margin-left: auto;
 }
 
 .nav-item {
