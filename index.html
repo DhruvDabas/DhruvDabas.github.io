@@ -23,9 +23,6 @@
                         <a href="#projects" class="nav-link">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#skills" class="nav-link">Skills</a>
-                    </li>
-                    <li class="nav-item">
                         <a href="#contact" class="nav-link">Contact</a>
                     </li>
                 </ul>
@@ -41,8 +38,8 @@
         <div class="hero-container">
             <div class="hero-content">
                 <h1>Hi, I'm Dhruv </h1>
-                <h2 class="typed-text">Full Stack Developer</h2>
-                <p>I build exceptional digital experiences that are fast, accessible, visually appealing, and responsive.</p>
+                <h2 class="typed-text">Buidling Machine Learning Systems </h2>
+                <p>I design and build intelligent systems — with a focus on making AI practical, efficient, and impactful.</p>
                 <div class="hero-btns">
                     <a href="#projects" class="btn primary-btn">View My Work</a>
                     <a href="#contact" class="btn secondary-btn">Contact Me</a>
@@ -57,14 +54,15 @@
             <div class="about-content">
                 <div class="about-text">
                     <h2>About Me</h2>
-                    <p>Hello! I'm Dhruv, a passionate full-stack developer with experience in creating modern web applications. I specialize in building responsive, accessible, and user-friendly websites using the latest technologies.</p>
-                    <p>With a strong foundation in both frontend and backend development, I bring ideas to life in the browser with clean, efficient code.</p>
-                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying outdoor activities.</p>
+                    <p>Hello! I’m Dhruv. I build intelligent systems that go beyond theory and make a difference in practice.
+                    I focus on shaping ideas in machine learning into solutions that are not only accurate, but also efficient, accessible, and usable in the real world.</p>
+                    <p>With a strong foundation in building intelligent systems and thoughtful design, I turn complex ideas in AI into solutions that are efficient, practical, and ready to make an impact.</p>
+                    <p>When I'm not coding, you can find me researching and learning new technologies, or enjoying outdoor activities.</p>
                     <a href="resume.pdf" class="btn primary-btn" target="_blank">View Resume</a>
                 </div>
                 <div class="about-image">
                     <div class="image-placeholder">
-                        <i class="fas fa-user"></i>
+                        <img src="./pfp.jpg" alt="Dhruv Dabas" class="profile-image">
                     </div>
                 </div>
             </div>
@@ -75,164 +73,66 @@
     <section id="projects" class="projects">
         <div class="container">
             <h2>My Projects</h2>
-            <div class="project-filters">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="frontend">Frontend</button>
-                <button class="filter-btn" data-filter="backend">Backend</button>
-                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
-            </div>
             <div class="projects-container">
-                <div class="project-card" data-category="frontend">
+                <div class="project-card">
                     <div class="project-image">
-                        <div class="image-placeholder">
-                            <i class="fas fa-code"></i>
-                        </div>
+                        <img src="project1.jpg" alt="Intelligent Code Assistant" />
                     </div>
                     <div class="project-content">
-                        <h3>Project One</h3>
-                        <p>A responsive web application built with modern technologies to showcase business services.</p>
+                        <h3>Intelligent Code Assistant</h3>
+                        <p>Built a RAG-powered system that enables context-aware Q&A over codebases while automatically detecting bugs, suggesting refactors, and generating unit tests.</p>
                         <div class="project-tags">
-                            <span class="tag">HTML</span>
-                            <span class="tag">CSS</span>
-                            <span class="tag">JavaScript</span>
+                            <span class="tag">Retrieval Augmented Generation</span>
+                            <span class="tag">LLM</span>
+                            <span class="tag">Text Generation</span>
+                            <span class="tag">FAISS</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="btn secondary-btn">Live Demo</a>
-                            <a href="#" class="btn secondary-btn">Source Code</a>
+                            <a href="https://github.com/DhruvDabas" target="_blank" class="btn secondary-btn">GitHub</a>
                         </div>
                     </div>
                 </div>
                 
-                <div class="project-card" data-category="fullstack">
+                <div class="project-card">
                     <div class="project-image">
-                        <div class="image-placeholder">
-                            <i class="fas fa-shopping-cart"></i>
-                        </div>
+                        <img src="project2.jpg" alt="Efficient Image Classifier" />
                     </div>
                     <div class="project-content">
-                        <h3>E-Commerce Platform</h3>
-                        <p>A full-featured e-commerce solution with user authentication, payment processing, and inventory management.</p>
+                        <h3>Efficient Image Classifier with Transfer Learning & Knowledge Distillation</h3>
+                        <p>Designed a distilled model that runs 79% smaller and 40% faster with minimal accuracy trade-off, deployed for real-time inference.</p>
                         <div class="project-tags">
-                            <span class="tag">React</span>
-                            <span class="tag">Node.js</span>
-                            <span class="tag">MongoDB</span>
+                            <span class="tag">ResNet-18</span>
+                            <span class="tag">Pytorch</span>
+                            <span class="tag">Transfer Learning</span>
+                            <span class="tag">MobileNetV2</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="btn secondary-btn">Live Demo</a>
-                            <a href="#" class="btn secondary-btn">Source Code</a>
+                            <a href="https://github.com/DhruvDabas" target="_blank" class="btn secondary-btn">GitHub</a>
                         </div>
                     </div>
                 </div>
                 
-                <div class="project-card" data-category="fullstack">
+                <div class="project-card">
                     <div class="project-image">
-                        <div class="image-placeholder">
-                            <i class="fas fa-mobile-alt"></i>
-                        </div>
+                        <img src="project3.jpg" alt="Handwritten Digit Recognition App" />
                     </div>
                     <div class="project-content">
-                        <h3>Task Management App</h3>
-                        <p>A productivity application that helps users organize their tasks and manage their time effectively.</p>
+                        <h3>Handwritten Digit Recognition App</h3>
+                        <p>Developed a CNN-based model with a robust preprocessing pipeline, achieving 90%+ accuracy on digit recognition.</p>
                         <div class="project-tags">
-                            <span class="tag">React Native</span>
-                            <span class="tag">Firebase</span>
-                            <span class="tag">Redux</span>
+                            <span class="tag">Convolutional Nueral Networks</span>
+                            <span class="tag">Tensorflow</span>
+                            <span class="tag">Preprocessing</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="btn secondary-btn">Live Demo</a>
-                            <a href="#" class="btn secondary-btn">Source Code</a>
+                            <a href="https://github.com/DhruvDabas" target="_blank" class="btn secondary-btn">GitHub</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2>My Skills</h2>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h3>Frontend</h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <i class="fab fa-html5"></i>
-                                <span>HTML5</span>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <i class="fab fa-css3-alt"></i>
-                                <span>CSS3</span>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <i class="fab fa-js"></i>
-                                <span>JavaScript</span>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <i class="fab fa-react"></i>
-                                <span>React</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3>Backend</h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <i class="fab fa-node-js"></i>
-                                <span>Node.js</span>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <i class="fas fa-database"></i>
-                                <span>MongoDB</span>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <i class="fas fa-server"></i>
-                                <span>Express</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3>Tools & Others</h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <i class="fab fa-git-alt"></i>
-                                <span>Git</span>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <i class="fab fa-github"></i>
-                                <span>GitHub</span>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <i class="fas fa-terminal"></i>
-                                <span>CLI</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
@@ -241,7 +141,7 @@
             <div class="contact-container">
                 <div class="contact-info">
                     <h3>Contact Information</h3>
-                    <p>Every big journey starts with small conversations. Let’s start one.</p>
+                    <p>Every big journey starts with small conversations. Let’s start one</p>
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
                         <div>
